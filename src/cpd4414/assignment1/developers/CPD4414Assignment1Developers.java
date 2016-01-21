@@ -19,24 +19,20 @@ public class CPD4414Assignment1Developers {
     }
 
     public static String stringPower(String str, int a) {
-//        if (a == 2) {
-//            for (int i = 0; i < a-1; i++) {
-//                str += str;
-//            }
-//            return str;
-//        }
-//        else if(a<1){
-//            return null;
-//            
-//        }
-//            else
-//       {
-//       return str;
-//       }
-        if(a< 1){
-            return null;
+        if (a == 2) {
+            for (int i = 0; i < a-1; i++) {
+                str += str;
+            }
+            return str;
         }
-        else 
-            return "HHH";
+        else if(a<1){
+            return null;
+            
+        }
+            else
+       {
+       return str;
+       }
+        
     }
   }
