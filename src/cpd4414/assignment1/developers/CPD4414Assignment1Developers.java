@@ -17,5 +17,8 @@ public class CPD4414Assignment1Developers {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+    public static String stringPower(String str,int a){
+        return null;
     
+    }
 }
