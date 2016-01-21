@@ -42,7 +42,7 @@ public class CPD4414Assignment1DevelopersTest {
      */
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
-        System.out.println("stringPower");
+        System.out.println("testEmptyStringShouldReturnEmptyString");
         String str = "";
         int a = 0;
         String expResult = "";
@@ -51,7 +51,7 @@ public class CPD4414Assignment1DevelopersTest {
     }
 
    public void  testLessThanOneShouldReturnNull(){
-        System.out.println("stringPower");
+        System.out.println("testLessThanOneShouldReturnNull");
         String str = "";
         int a = 0;
         String expResult = null;
@@ -60,7 +60,16 @@ public class CPD4414Assignment1DevelopersTest {
    }
    
    public void testStringAndOneShouldReturnString(){
-        System.out.println("stringPower");
+        System.out.println("testStringAndOneShouldReturnString");
+        String str = "";
+        int a = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1Developers.stringPower(str, a);
+        assertEquals(expResult, result);
+       
+   }
+    public void  testStringAndTwoShouldReturnStringDoubled(){
+        System.out.println("testStringAndTwoShouldReturnStringDoubled");
         String str = "";
         int a = 0;
         String expResult = null;
