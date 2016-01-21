@@ -44,38 +44,29 @@ public class CPD4414Assignment1DevelopersTest {
     public void testEmptyStringShouldReturnEmptyString() {
         System.out.println("testEmptyStringShouldReturnEmptyString");
         String str = "";
-        int a = 0;
+        int a = 1;
         String expResult = "";
         String result = CPD4414Assignment1Developers.stringPower(str, a);
         assertEquals(expResult, result);
     }
 
-   public void  testLessThanOneShouldReturnNull(){
+    @Test
+    public void testLessThanOneShouldReturnNull() {
         System.out.println("testLessThanOneShouldReturnNull");
-        String str = "";
+        String str = "abc";
         int a = 0;
         String expResult = null;
         String result = CPD4414Assignment1Developers.stringPower(str, a);
         assertEquals(expResult, result);
-   }
-   
-   public void testStringAndOneShouldReturnString(){
-        System.out.println("testStringAndOneShouldReturnString");
-        String str = "";
-        int a = 0;
-        String expResult = null;
-        String result = CPD4414Assignment1Developers.stringPower(str, a);
-        assertEquals(expResult, result);
-       
-   }
-    public void  testStringAndTwoShouldReturnStringDoubled(){
-        System.out.println("testStringAndTwoShouldReturnStringDoubled");
-        String str = "";
-        int a = 0;
-        String expResult = null;
-        String result = CPD4414Assignment1Developers.stringPower(str, a);
-        assertEquals(expResult, result);
-       
-   }
-}
+    }
 
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("testStringAndOneShouldReturnString");
+        String str = "abc";
+        int a = 1;
+        String expResult = "abc";
+        String result = CPD4414Assignment1Developers.stringPower(str, a);
+        assertEquals(expResult, result);
+    }
+}

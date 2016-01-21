@@ -20,8 +20,11 @@ public class CPD4414Assignment1Developers {
 
     public static String stringPower(String str, int a) {
         if (a < 1) {
+            return null;
+        } else if (a == 1) {
+            return str;
+        } else {
             return "";
         }
-        return str;
     }
 }
