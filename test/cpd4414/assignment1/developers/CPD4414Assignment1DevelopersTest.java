@@ -69,4 +69,13 @@ public class CPD4414Assignment1DevelopersTest {
         String result = CPD4414Assignment1Developers.stringPower(str, a);
         assertEquals(expResult, result);
     }
+      @Test
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("testStringAndTwoShouldReturnStringDoubled");
+        String str = "abc";
+        int a = 2;
+        String expResult = "abcabc";
+        String result = CPD4414Assignment1Developers.stringPower(str, a);
+        assertEquals(expResult, result);
+    }
 }

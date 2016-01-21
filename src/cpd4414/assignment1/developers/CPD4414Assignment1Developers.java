@@ -19,12 +19,18 @@ public class CPD4414Assignment1Developers {
     }
 
     public static String stringPower(String str, int a) {
-        if (a < 1) {
-            return null;
-        } else if (a == 1) {
+        if (a == 2) {
+            for (int i = 0; i < a-1; i++) {
+                str += str;
+            }
             return str;
-        } else {
-            return "";
+        }
+        else if(a<1){
+            return null;
+        }
+            else
+       {
+       return str;
+      }
         }
     }
-}
