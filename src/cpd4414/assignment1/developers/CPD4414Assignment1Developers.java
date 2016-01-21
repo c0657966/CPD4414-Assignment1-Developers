@@ -18,14 +18,7 @@ public class CPD4414Assignment1Developers {
         // TODO code application logic here
     }
     public static String stringPower(String str,int a){
-        if(a==2){
-            for(int i=0;i<2;i++){
-                str=str+str;            
-            }
-            return str;
-        }
-        else
-            return str;
+      return "";
     
     }
 }
