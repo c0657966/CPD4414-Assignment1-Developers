@@ -50,5 +50,23 @@ public class CPD4414Assignment1DevelopersTest {
         assertEquals(expResult, result);
     }
 
+   public void  testLessThanOneShouldReturnNull(){
+        System.out.println("stringPower");
+        String str = "";
+        int a = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1Developers.stringPower(str, a);
+        assertEquals(expResult, result);
+   }
    
+   public void testStringAndOneShouldReturnString(){
+        System.out.println("stringPower");
+        String str = "";
+        int a = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1Developers.stringPower(str, a);
+        assertEquals(expResult, result);
+       
+   }
 }
+
