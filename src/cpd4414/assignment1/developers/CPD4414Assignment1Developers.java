@@ -32,11 +32,6 @@ public class CPD4414Assignment1Developers {
 //            else
 //       {
 //       return str;
-//      }
-        if(str==""){
-            return "";
-        }
-        else
-            return str;
-        }
+        return str;
     }
+  }
