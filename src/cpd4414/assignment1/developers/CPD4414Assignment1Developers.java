@@ -32,6 +32,11 @@ public class CPD4414Assignment1Developers {
 //            else
 //       {
 //       return str;
-        return str;
+//       }
+        if(a< 1){
+            return null;
+        }
+        else 
+            return "HHH";
     }
   }
